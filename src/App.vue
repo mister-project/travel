@@ -7,7 +7,10 @@
 
 <script>
 import IndexPage from "./views/IndexPage.vue";
-export default {};
+import TravelCard from "./components/TravelCard.vue";
+export default {
+  comments: { IndexPage, TravelCard },
+};
 import "./assets/css/bootstrap.min.css";
 import "./assets/css/style.css";
 import "./assets/css/bootstrap.min.css";
