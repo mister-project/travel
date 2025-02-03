@@ -1,4 +1,4 @@
-# coffee-shop
+# travel
 
 ## Project setup
 ```
