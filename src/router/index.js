@@ -17,6 +17,10 @@ const router = new VueRouter({
       path: "/single",
       component: SinglePage,
     },
+    {
+      path: "/single/item",
+      component: SinglePage,
+    },
   ],
 });
 
