@@ -49,6 +49,11 @@ const travels = {
     getTravels(state) {
       return state.travels;
     },
+    getTravelsById(state) {
+      return (id) => {
+        return state.travels.find((trav) => trav.id === +id);
+      };
+    },
   },
 };
 

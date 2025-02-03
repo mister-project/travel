@@ -34,8 +34,8 @@ export default {
   },
   methods: {
     getIdTrav(id) {
-      console.log(id);
-      this.$router.push("/single/item");
+      // console.log(id);
+      this.$router.push({ name: "travels", params: { id: id } });
     },
   },
 };
